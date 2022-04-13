@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@lizheming/chimee-plugin-controlbar": "^0.1.1",
-    "chimee": "latest"
-  }
-}
