@@ -11,4 +11,10 @@ public interface CommunityConstant {
 
     //失败
     int ACTIVATION_FAILURE=2;
+
+    //默认超时时间
+    int DEFAULT_EXPIRED_SECOND=3600*12;
+
+    //记住我
+    int EXPIRED_SECOND=3600*24*100;
 }

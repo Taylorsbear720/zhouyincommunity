@@ -1,7 +1,9 @@
 package com.zhouyin.comunity.service;
 
 import com.mysql.cj.util.StringUtils;
+import com.zhouyin.comunity.dao.LoginTicketMapper;
 import com.zhouyin.comunity.dao.UserMapper;
+import com.zhouyin.comunity.entity.LoginTicket;
 import com.zhouyin.comunity.entity.User;
 import com.zhouyin.comunity.util.CommunityConstant;
 import com.zhouyin.comunity.util.CommunityUtil;
@@ -28,6 +30,8 @@ public class UserService  implements CommunityConstant {
     public User FindUserByName( String userName) { return userMapper.selectByName(userName); }
     public User FindUserByEmai( String userEmail) { return userMapper.selectByEmail(userEmail); }
 
+    @Resource
+    private LoginTicketMapper loginTicketMapper;
     @Resource
     private MailClient mailClient;
 
@@ -110,6 +114,59 @@ public class UserService  implements CommunityConstant {
         {
             return ACTIVATION_FAILURE;
         }
+    }
+
+    public Map<String ,Object> login(String username,String password,int expired)
+    {
+        Map<String,Object> map=new HashMap<>();
+
+        if(StringUtils.isNullOrEmpty(username))
+        {
+            map.put("usernameMsg","账号不能为空");
+            return map;
+        }
+        if(StringUtils.isNullOrEmpty(password))
+        {
+            map.put("passwordMsg","密码不能为空");
+            return map;
+        }
+
+        //账户名
+        User user=userMapper.selectByName(username);
+        if(user==null)
+        {
+            map.put("usernameMsg","账户名错误");
+            return map;
+        }
+
+        //状态
+        if(user.getStatus()==0){
+            map.put("usernameMsg","账号未激活");
+            return map;
+        }
+
+        password=CommunityUtil.md5(password+user.getSalt());
+        if(!password.equals(user.getPassword()))
+        {
+            map.put("passwordMsg","密码错误");
+            return map;
+        }
+        //生成登录凭证
+        LoginTicket loginTicket=new LoginTicket();
+        loginTicket.setUserid(user.getId());
+        loginTicket.setTicket(CommunityUtil.generateUUID());
+        loginTicket.setStatus(0);
+        loginTicket.setExpired(new Date(System.currentTimeMillis() + expired*1000));
+        loginTicketMapper.insertLoginTicket(loginTicket);
+
+        map.put("ticket",loginTicket.getTicket());
+
+        return map;
+
+    }
+    public void logout(String ticket)
+    {
+        loginTicketMapper.updataStatus(ticket,1);
     }
 
 }
