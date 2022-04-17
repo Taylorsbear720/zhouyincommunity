@@ -200,6 +200,8 @@ public class UserService  implements CommunityConstant {
             map.put("oldPasswordMsg","密码错误");
             return map;
         }else {
+           // user.setSalt(CommunityUtil.generateUUID().substring(0,5));
+            newPassword=CommunityUtil.md5("aaa"+user.getSalt());
             userMapper.updatePassword(user.getId(),newPassword);
             map.put("newPasswordMsg","密码修改成功");
             return map;
