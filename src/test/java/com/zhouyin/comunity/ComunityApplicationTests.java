@@ -2,6 +2,7 @@ package com.zhouyin.comunity;
 
 import com.zhouyin.comunity.config.Alphaconfig;
 import com.zhouyin.comunity.dao.TestDao;
+import com.zhouyin.comunity.util.SensitiveFilter;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,4 +41,15 @@ public class ComunityApplicationTests implements ApplicationContextAware {
 		System.out.println(alphaconfig.simpleDateFormat());
 	}
 
+
+	@Autowired
+	private SensitiveFilter sensitiveFilter;
+	@Test
+	public   void   testSensitive()
+	{
+		String text="这里可以吸毒";
+		System.out.println(text);
+		text=sensitiveFilter.filter(text);
+		System.out.println(text);
+	}
 }
