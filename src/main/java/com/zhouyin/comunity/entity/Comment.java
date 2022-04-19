@@ -12,6 +12,7 @@ public class Comment {
     private int targetId;
     private String content;
     private int status;
+    private Date createTime;
 
     @Override
     public String toString() {
@@ -91,5 +92,4 @@ public class Comment {
         this.createTime = createTime;
     }
 
-    private Date createTime;
 }

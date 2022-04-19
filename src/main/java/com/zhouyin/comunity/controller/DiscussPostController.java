@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.annotation.Resource;
 import java.util.*;
 
 @Controller
@@ -33,7 +34,7 @@ public class DiscussPostController implements CommunityConstant {
 
     @Autowired
     private UserService userService;
-    @Autowired
+    @Resource
     private CommentService commentService;
 
 
@@ -74,7 +75,7 @@ public class DiscussPostController implements CommunityConstant {
         // 评论: 给帖子的评论
         // 回复: 给评论的评论
         // 评论列表
-        List<Comment> commentList=commentService.findCommentsByEntity(ENTITY_TYPE_POST,post.getId(),page.getoffset(),page.getLimit());
+        List<Comment> commentList=commentService.findCommentsByEntity(ENTITY_TYPE_POST,post.getId(),page.getOffset(),page.getLimit());
         // 评论VO列表
         List<Map<String, Object>> commentVoList = new ArrayList<>();
         if (commentList != null) {
