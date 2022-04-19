@@ -17,4 +17,8 @@ public interface CommunityConstant {
 
     //记住我
     int EXPIRED_SECOND=3600*24*100;
+
+    int ENTITY_TYPE_POST=1;
+
+    int ENTITY_TYPE_COMMENT=2;
 }

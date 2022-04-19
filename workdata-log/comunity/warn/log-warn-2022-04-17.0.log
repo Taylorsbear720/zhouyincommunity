@@ -1,0 +1,11 @@
+2022-04-17 10:35:01,896 WARN [http-nio-8080-exec-8] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [187] milliseconds.
+2022-04-17 10:48:02,696 WARN [http-nio-8080-exec-3] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [175] milliseconds.
+2022-04-17 10:54:28,545 WARN [http-nio-8080-exec-7] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [185] milliseconds.
+2022-04-17 10:58:10,838 WARN [http-nio-8080-exec-10] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [176] milliseconds.
+2022-04-17 11:08:23,087 WARN [http-nio-8080-exec-9] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [189] milliseconds.
+2022-04-17 11:08:57,978 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s835ms655µs).
+2022-04-17 11:10:33,183 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m35s205ms489µs700ns).
+2022-04-17 11:17:59,318 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m45s357ms380µs100ns).
+2022-04-17 11:19:23,331 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s6ms150µs400ns).
+2022-04-17 11:25:33,555 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s634ms126µs100ns).
+2022-04-17 11:28:39,821 WARN [http-nio-8080-exec-7] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [185] milliseconds.
