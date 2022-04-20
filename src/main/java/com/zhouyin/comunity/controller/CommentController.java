@@ -24,7 +24,7 @@ public class CommentController {
 
     @RequestMapping(path = "/add/{discussPostId}", method = RequestMethod.POST)
 
-    public String addComment(@PathVariable("discussPostId") int discussPostId, Comment comment, @PathVariable String disscussPostId) {
+    public String addComment(@PathVariable("discussPostId") int discussPostId, Comment comment) {
         comment.setUserId(hostHolder.getUsers().getId());
         comment.setStatus(0);
         comment.setCreateTime(new Date());

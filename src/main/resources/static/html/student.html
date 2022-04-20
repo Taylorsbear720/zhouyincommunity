@@ -11,18 +11,19 @@
 <div id="wrapper" >
 </div>
 
-<script src="http://lib.baomitu.com/chimee-player/1.1.9/chimee-player.browser.js"></script>
-<script>
-    new ChimeePlayer({
-        wrapper: '#wrapper',  //k video dom容器
-        src: 'http://chimee.org/vod/1.mp4',
-        autoplay: true,
-        controls: true,
-        plugin: [
-            chimeeControl // 或者 'chimeeControl'
-        ]
-    });
-</script>
+<div id="bofang_box">
+    <script>var player_data={"flag":"play","encrypt":2,"trysee":0,"points":0,"link":"\/vod_play_id_2192_sid_1_nid_1.html","link_next":"","link_pre":"\/vod_play_id_2192_sid_1_nid_1.html","url":"JTMyJTMxJTM5JTMyJTJGJTMwJTMyJTJFJTZEJTMzJTc1JTM4","url_next":"","from":"pic1","server":"no","note":""}</script>
+    <script src="/static/js/playerconfig.js"></script>
+    <script src="/static/js/player.js"></script>
+    <style>.MacPlayer{background: #000000;font-size:14px;color:#F6F6F6;margin:0px;padding:0px;position:relative;overflow:hidden;width:100%;height:100%;min-height:100px;}.MacPlayer table{width:100%;height:100%;}.MacPlayer #playleft{position:inherit;!important;width:100%;height:100%;}</style>
+    <div class="MacPlayer">
+        <iframe id="buffer" src="" frameborder="0" scrolling="no" width="100%" height="100%" style="position: absolute; z-index: 99998; display: none;"></iframe>
+        <iframe id="install" src="" frameborder="0" scrolling="no" width="100%" height="100%" style="position:absolute;z-index:99998;display:none;"></iframe>
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tbody><tr><td id="playleft" valign="top" style="">
+                <iframe width="100%" height="100%" src="/static/danmu/a-pic.php?d=2192/02.m3u8&amp;t=7e25fca0a63cda3543f7366a1948ae97" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="true" allowtransparency="true"></iframe>
+            </td></tr></tbody></table></div><script src="/static/player/pic1.js"></script>
+</div>
 
 </body>
 </html>
