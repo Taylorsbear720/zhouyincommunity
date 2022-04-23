@@ -27,7 +27,7 @@ public class UserService  implements CommunityConstant {
     @Resource
     private UserMapper userMapper;
 
-    public User findUserById(int id) {
+    public User FindUserById(int id) {
 //        return userMapper.selectById(id);
         User user = getCache(id);
         if (user == null) {

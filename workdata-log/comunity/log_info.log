@@ -89,3 +89,143 @@
 2022-04-23 10:45:55,876 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
 2022-04-23 10:46:36,389 INFO [http-nio-8080-exec-7] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
 2022-04-23 10:46:36,483 INFO [http-nio-8080-exec-7] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-04-23 18:54:19,127 INFO [main] c.z.c.kafakTest [StartupInfoLogger.java:55] Starting kafakTest using Java 11.0.13 on SK-20220116LREU with PID 9504 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 18:54:19,127 INFO [main] c.z.c.kafakTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 18:54:20,212 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 18:54:20,212 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 18:54:20,249 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-04-23 18:54:23,476 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 18:54:24,597 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-23 18:55:15,723 INFO [main] c.z.c.kafakTest [StartupInfoLogger.java:55] Starting kafakTest using Java 11.0.13 on SK-20220116LREU with PID 7088 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 18:55:15,728 INFO [main] c.z.c.kafakTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 18:55:16,615 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 18:55:16,615 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 18:55:16,644 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-04-23 18:55:19,673 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 18:55:20,719 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-23 18:56:12,960 INFO [main] c.z.c.kafakTest [StartupInfoLogger.java:55] Starting kafakTest using Java 11.0.13 on SK-20220116LREU with PID 8352 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 18:56:12,960 INFO [main] c.z.c.kafakTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 18:56:13,887 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 18:56:13,887 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 18:56:13,927 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-04-23 18:56:16,864 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 18:56:17,962 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-23 18:59:26,911 INFO [main] c.z.c.kafakTest [StartupInfoLogger.java:55] Starting kafakTest using Java 11.0.13 on SK-20220116LREU with PID 10088 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 18:59:26,927 INFO [main] c.z.c.kafakTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 18:59:27,827 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 18:59:27,842 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 18:59:27,874 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-04-23 18:59:30,799 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 18:59:31,873 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-23 19:00:38,837 INFO [main] c.z.c.kafakTest [StartupInfoLogger.java:55] Starting kafakTest using Java 11.0.13 on SK-20220116LREU with PID 3568 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 19:00:38,837 INFO [main] c.z.c.kafakTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 19:00:39,722 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 19:00:39,722 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 19:00:39,753 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-04-23 19:00:42,676 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 19:00:43,752 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-23 19:01:55,888 INFO [main] c.z.c.MapperTest [StartupInfoLogger.java:55] Starting MapperTest using Java 11.0.13 on SK-20220116LREU with PID 2952 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 19:01:55,888 INFO [main] c.z.c.MapperTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 19:01:56,850 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 19:01:56,856 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 19:01:56,889 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2022-04-23 19:01:59,817 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 19:02:00,897 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-23 19:02:19,912 INFO [restartedMain] c.z.c.ComunityApplication [StartupInfoLogger.java:55] Starting ComunityApplication using Java 11.0.13 on SK-20220116LREU with PID 1084 (C:\work\workspace\comunity\target\classes started by Administrator in C:\work\workspace\comunity)
+2022-04-23 19:02:19,933 INFO [restartedMain] c.z.c.ComunityApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 19:02:19,998 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-23 19:02:19,998 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-23 19:02:20,595 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 19:02:20,595 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 19:02:20,610 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-04-23 19:02:21,163 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-04-23 19:02:21,179 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-23 19:02:21,179 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-04-23 19:02:21,179 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-23 19:02:21,242 INFO [restartedMain] o.a.c.c.C.[.[.[/comunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-04-23 19:02:21,242 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1244 ms
+2022-04-23 19:02:21,948 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 19:02:22,264 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-04-23 19:02:22,280 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-23 19:02:22,295 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/comunity'
+2022-04-23 19:02:22,311 INFO [restartedMain] c.z.c.ComunityApplication [StartupInfoLogger.java:61] Started ComunityApplication in 3.003 seconds (JVM running for 4.043)
+2022-04-23 19:05:00,130 INFO [main] c.z.c.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 11.0.13 on SK-20220116LREU with PID 3780 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 19:05:00,130 INFO [main] c.z.c.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 19:05:01,093 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 19:05:01,108 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 19:05:01,146 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2022-04-23 19:05:04,063 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 19:05:05,138 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-23 19:06:40,409 INFO [main] c.z.c.kafakTest [StartupInfoLogger.java:55] Starting kafakTest using Java 11.0.13 on SK-20220116LREU with PID 2304 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 19:06:40,411 INFO [main] c.z.c.kafakTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 19:06:41,281 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 19:06:41,285 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 19:06:41,323 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2022-04-23 19:06:44,316 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 19:06:45,434 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-23 19:12:15,921 INFO [main] c.z.c.kafakTest [StartupInfoLogger.java:55] Starting kafakTest using Java 11.0.13 on SK-20220116LREU with PID 10420 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 19:12:15,923 INFO [main] c.z.c.kafakTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 19:12:16,846 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 19:12:16,850 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 19:12:16,892 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2022-04-23 19:12:25,953 INFO [main] c.z.c.kafakTest [StartupInfoLogger.java:55] Starting kafakTest using Java 11.0.13 on SK-20220116LREU with PID 9152 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 19:12:25,953 INFO [main] c.z.c.kafakTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 19:12:26,816 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 19:12:26,832 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 19:12:26,852 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-04-23 19:12:29,790 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 19:12:30,857 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-23 19:14:14,665 INFO [main] c.z.c.kafakTest [StartupInfoLogger.java:55] Starting kafakTest using Java 11.0.13 on SK-20220116LREU with PID 9456 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 19:14:14,667 INFO [main] c.z.c.kafakTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 19:14:15,531 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 19:14:15,535 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 19:14:15,574 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2022-04-23 19:14:18,513 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 19:14:19,601 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-23 19:18:38,975 INFO [main] c.z.c.kafakTest [StartupInfoLogger.java:55] Starting kafakTest using Java 11.0.13 on SK-20220116LREU with PID 3240 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 19:18:38,991 INFO [main] c.z.c.kafakTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 19:18:39,897 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 19:18:39,914 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 19:18:39,946 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-04-23 19:18:42,950 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 19:18:44,032 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-23 19:22:02,095 INFO [main] c.z.c.kafakTest [StartupInfoLogger.java:55] Starting kafakTest using Java 11.0.13 on SK-20220116LREU with PID 2160 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 19:22:02,098 INFO [main] c.z.c.kafakTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 19:22:03,010 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 19:22:03,015 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 19:22:03,051 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-04-23 19:22:05,948 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 19:22:07,051 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-23 19:22:10,877 INFO [main] c.z.c.kafakTest [StartupInfoLogger.java:55] Starting kafakTest using Java 11.0.13 on SK-20220116LREU with PID 11176 (started by Administrator in C:\work\workspace\comunity)
+2022-04-23 19:22:10,879 INFO [main] c.z.c.kafakTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 19:22:11,746 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-23 19:22:11,751 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-23 19:22:11,783 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-04-23 19:22:14,655 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-23 19:22:15,665 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
