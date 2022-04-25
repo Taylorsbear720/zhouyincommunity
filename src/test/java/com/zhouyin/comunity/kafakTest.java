@@ -10,10 +10,8 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
 import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringRunner;
 
 
-@RunWith(SpringRunner.class)
 @SpringBootTest
 @ContextConfiguration(classes = ComunityApplication.class)
 public class kafakTest {
@@ -23,8 +21,8 @@ public class kafakTest {
 
     @Test
     public void testKafka() {
-        kafkaProducer.sendMessage("test1", "你好");
-        kafkaProducer.sendMessage("test1", "在吗");
+        kafkaProducer.sendMessage("test", "你好");
+        kafkaProducer.sendMessage("test", "在吗");
 
         try {
             Thread.sleep(1000 * 10);
@@ -50,7 +48,7 @@ class KafkaProducer {
 @Component
 class KafkaConsumer {
 
-    @KafkaListener(topics = {"test1"})
+    @KafkaListener(topics = {"test"})
     public void handleMessage(ConsumerRecord record) {
         System.out.println(record.value());
     }

@@ -11,7 +11,6 @@
     <sql id="insertFields">
         user_id, entity_type, entity_id, target_id, content, status, create_time
     </sql>
-
     <select id="selectCommentsByEntity" resultType="Comment">
         select <include refid="selectFields"></include>
         from comment
@@ -21,6 +20,7 @@
         order by create_time asc
         limit #{offset}, #{limit}
     </select>
+
 
     <select id="selectCountByEntity" resultType="int">
         select count(id)
@@ -34,5 +34,13 @@
         insert into comment(<include refid="insertFields"></include>)
         values(#{userId},#{entityType},#{entityId},#{targetId},#{content},#{status},#{createTime})
     </insert>
+
+    <select id="selectCommentById" resultType="Comment">
+        select <include refid="selectFields"></include>
+        from comment
+        where id = #{id}
+    </select>
+
+
 
 </mapper>

@@ -1,6 +1,8 @@
 package com.zhouyin.comunity.controller;
 
 
+import com.zhouyin.comunity.Event.EventProducer;
+import com.zhouyin.comunity.entity.Event;
 import com.zhouyin.comunity.entity.Page;
 import com.zhouyin.comunity.entity.User;
 import com.zhouyin.comunity.service.FollowService;
@@ -24,6 +26,8 @@ public class FollowController  implements CommunityConstant {
     @Autowired
     private FollowService followService;
 
+    @Autowired
+    private EventProducer eventProducer;
 
     @Autowired
     private HostHolder hostHolder;
@@ -37,6 +41,15 @@ public class FollowController  implements CommunityConstant {
         User user = hostHolder.getUsers();
 
         followService.follow(user.getId(), entityType, entityId);
+
+        // 触发关注事件
+        Event event = new Event()
+                .setTopic(TOPIC_FOLLOW)
+                .setUserId(hostHolder.getUsers().getId())
+                .setEntityType(entityType)
+                .setEntityId(entityId)
+                .setEntityUserId(entityId);
+        eventProducer.fireEvent(event);
 
         return CommunityUtil.getJSONString(0, "已关注!");
     }

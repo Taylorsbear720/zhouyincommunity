@@ -61,6 +61,7 @@ public class DiscussPostController implements CommunityConstant {
         return CommunityUtil.getJSONString(0, "发布成功!");
     }
 
+    //帖子页面
     @RequestMapping(path = "/detail/{discussPostId}",method = RequestMethod.GET)
     public String getDiscussPost(@PathVariable("discussPostId") int discussPostId, Model model, Page page) {
         // 帖子
@@ -96,6 +97,7 @@ public class DiscussPostController implements CommunityConstant {
                 Map<String, Object> commentVo = new HashMap<>();
                 // 评论
                 commentVo.put("comment", comment);
+                System.out.println(comment.getId());
                 // 作者
                 commentVo.put("user", userService.FindUserById(comment.getUserId()));
                 // 点赞数量
@@ -147,7 +149,6 @@ public class DiscussPostController implements CommunityConstant {
         model.addAttribute("comments", commentVoList);
         return "/site/discuss-detail";
         //评论分页信息
-
 
     }
 }
