@@ -1,10 +1,8 @@
 package com.zhouyin.comunity.controller;
 
 
-import com.zhouyin.comunity.entity.Comment;
-import com.zhouyin.comunity.entity.DiscussPost;
-import com.zhouyin.comunity.entity.Page;
-import com.zhouyin.comunity.entity.User;
+import com.zhouyin.comunity.Event.EventProducer;
+import com.zhouyin.comunity.entity.*;
 import com.zhouyin.comunity.service.CommentService;
 import com.zhouyin.comunity.service.DiscussPostService;
 import com.zhouyin.comunity.service.LikeService;
@@ -41,6 +39,9 @@ public class DiscussPostController implements CommunityConstant {
     @Autowired
     private LikeService likeService;
 
+    @Autowired
+    private EventProducer eventProducer;
+
 
     @RequestMapping(path = "/add", method = RequestMethod.POST)
     @ResponseBody
@@ -56,6 +57,15 @@ public class DiscussPostController implements CommunityConstant {
         post.setContent(content);
         post.setCreateTime(new Date());
         discussPostService.addDisscussPost(post);
+
+        //触发发帖事件
+        Event event = new Event()
+                .setTopic(TOPIC_PUBLISH)
+                .setUserId(user.getId())
+                .setEntityType(ENTITY_TYPE_POST)
+                .setEntityId(post.getId());
+        eventProducer.fireEvent(event);
+
 
         // 报错的情况,将来统一处理.
         return CommunityUtil.getJSONString(0, "发布成功!");

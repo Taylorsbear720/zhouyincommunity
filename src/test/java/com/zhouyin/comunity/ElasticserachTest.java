@@ -3,14 +3,13 @@ package com.zhouyin.comunity;
 
 import com.alibaba.fastjson.JSONObject;
 import com.zhouyin.comunity.dao.DiscussPostMapper;
-import com.zhouyin.comunity.dao.DisscussRepository;
+import com.zhouyin.comunity.dao.DiscussRepository;
 import com.zhouyin.comunity.entity.DiscussPost;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.index.query.QueryBuilders;
-import org.elasticsearch.index.query.TermQueryBuilder;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
@@ -20,12 +19,7 @@ import org.elasticsearch.search.sort.SortOrder;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
 import org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate;
-import org.springframework.data.elasticsearch.core.query.NativeSearchQuery;
-import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.test.context.ContextConfiguration;
 
 import javax.annotation.Resource;
@@ -40,7 +34,7 @@ public class ElasticserachTest {
     private DiscussPostMapper discussMapper;
 
     @Autowired
-    private DisscussRepository discussRepository;
+    private DiscussRepository discussRepository;
 
     @Autowired
     private ElasticsearchRestTemplate elasticsearchRestTemplate;
@@ -168,7 +162,9 @@ public class ElasticserachTest {
             searchRequest.source(searchSourceBuilder);
             SearchResponse searchResponse = restHighLevelClient.search(searchRequest, RequestOptions.DEFAULT);
             List<DiscussPost> list = new ArrayList<>();
+
             long total = searchResponse.getHits().getTotalHits().value;
+
             for (SearchHit hit : searchResponse.getHits().getHits()) {
                 DiscussPost discussPost = JSONObject.parseObject(hit.getSourceAsString(), DiscussPost.class);
 

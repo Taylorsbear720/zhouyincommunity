@@ -8,5 +8,5 @@ import org.springframework.data.elasticsearch.repository.ElasticsearchRepository
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface DisscussRepository extends ElasticsearchRepository<DiscussPost,Integer> {
+public interface DiscussRepository extends ElasticsearchRepository<DiscussPost,Integer> {
 }
