@@ -117,8 +117,8 @@ a:hover {
 }
 
 .rt-0 {
-	right: 0;
-	top: 0;
+	right:0!important;
+	top:0!important;
 }
 
 .square {
